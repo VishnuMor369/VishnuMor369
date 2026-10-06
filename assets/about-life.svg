@@ -39,6 +39,7 @@
         font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace;
       }
 
+      /* Carousel 12s cycle: 3 slides = 4s each */
       @keyframes aboutSlide1 {
         0% { opacity: 1; transform: translateY(0); }
         30% { opacity: 1; transform: translateY(0); }
@@ -125,169 +126,173 @@
   <rect x="1" y="1" width="898" height="478" rx="19" fill="none" stroke="url(#about-border-grad)" stroke-width="1.5"/>
   <rect x="8" y="8" width="884" height="464" rx="15" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
 
-  <g transform="translate(45, 42)">
-    <text x="0" y="0" fill="#247bff" class="about-mono" font-size="11" font-weight="700" letter-spacing="1">// 01. CAPABILITIES &amp; PASSIONS</text>
-    <text x="0" y="24" fill="#ffffff" class="about-font" font-size="22" font-weight="800" letter-spacing="-0.3">Engineering Capabilities &amp; Creative Pursuits</text>
+  <!-- Top Title Bar -->
+  <g transform="translate(48, 38)">
+    <text x="0" y="0" fill="#247bff" class="about-mono" font-size="11" font-weight="700" letter-spacing="1">// PROFILE &amp; INTERESTS</text>
+    <text x="0" y="24" fill="#ffffff" class="about-font" font-size="22" font-weight="800" letter-spacing="-0.3">Development Focus &amp; Creative Pursuits</text>
   </g>
 
-  <!-- Left Column: Capabilities -->
-  <g transform="translate(45, 96)">
-    <text x="0" y="0" fill="#94a3b8" class="about-mono" font-size="11" font-weight="600" letter-spacing="0.5">CORE TECHNICAL DISCIPLINES</text>
+  <!-- ================= LEFT COLUMN: WHAT I BUILD ================= -->
+  <g transform="translate(48, 92)">
+    <!-- Section Title -->
+    <text x="0" y="0" fill="#38bdf8" class="about-mono" font-size="11" font-weight="700" letter-spacing="0.8">WHAT I BUILD</text>
 
-    <!-- Capability 1 -->
-    <g transform="translate(0, 16)">
-      <rect width="380" height="74" rx="12" fill="#0a1224" stroke="#247bff" stroke-width="1" stroke-opacity="0.3"/>
-      <rect x="12" y="12" width="36" height="36" rx="8" fill="#0d1b38" stroke="#247bff" stroke-width="1" stroke-opacity="0.5"/>
-      <path transform="translate(18, 18) scale(0.75)" stroke="#38bdf8" stroke-width="2" fill="none" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-      <text x="58" y="26" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">Full-Stack Architecture</text>
-      <text x="58" y="44" fill="#38bdf8" class="about-mono" font-size="10.5" font-weight="600">Next.js • React Native • TypeScript • Tailwind</text>
-      <text x="58" y="60" fill="#94a3b8" class="about-font" font-size="10.5">End-to-end scalable web &amp; mobile production systems.</text>
+    <!-- Capability 1: Full-Stack Development -->
+    <g transform="translate(0, 14)">
+      <rect width="380" height="70" rx="10" fill="#0a1224" stroke="#247bff" stroke-width="1" stroke-opacity="0.25"/>
+      <rect x="12" y="14" width="34" height="34" rx="8" fill="#0d1b38" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+      <path transform="translate(17, 19) scale(0.7)" stroke="#38bdf8" stroke-width="2" fill="none" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+      <text x="56" y="27" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">Full-Stack Development</text>
+      <text x="56" y="47" fill="#94a3b8" class="about-font" font-size="11">Building web and mobile applications across frontend,</text>
+      <text x="56" y="61" fill="#94a3b8" class="about-font" font-size="11">backend and database layers.</text>
     </g>
 
-    <!-- Capability 2 -->
-    <g transform="translate(0, 98)">
-      <rect width="380" height="74" rx="12" fill="#0a1224" stroke="#ff354f" stroke-width="1" stroke-opacity="0.3"/>
-      <rect x="12" y="12" width="36" height="36" rx="8" fill="#240c14" stroke="#ff354f" stroke-width="1" stroke-opacity="0.5"/>
-      <path transform="translate(18, 18) scale(0.75)" stroke="#ff354f" stroke-width="2" fill="none" d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
-      <text x="58" y="26" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">AI &amp; Automation Engineering</text>
-      <text x="58" y="44" fill="#fb7185" class="about-mono" font-size="10.5" font-weight="600">Intelligent Agents • Autonomous Workflows</text>
-      <text x="58" y="60" fill="#94a3b8" class="about-font" font-size="10.5">Building smart tools, agentic flows &amp; LLM systems.</text>
+    <!-- Capability 2: AI & Automation -->
+    <g transform="translate(0, 92)">
+      <rect width="380" height="70" rx="10" fill="#0a1224" stroke="#ff354f" stroke-width="1" stroke-opacity="0.25"/>
+      <rect x="12" y="14" width="34" height="34" rx="8" fill="#240c14" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
+      <path transform="translate(17, 19) scale(0.7)" stroke="#ff354f" stroke-width="2" fill="none" d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+      <text x="56" y="27" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">AI &amp; Automation</text>
+      <text x="56" y="47" fill="#94a3b8" class="about-font" font-size="11">Exploring AI-powered applications, automation and</text>
+      <text x="56" y="61" fill="#94a3b8" class="about-font" font-size="11">intelligent workflows.</text>
     </g>
 
-    <!-- Capability 3 -->
-    <g transform="translate(0, 180)">
-      <rect width="380" height="74" rx="12" fill="#0a1224" stroke="#247bff" stroke-width="1" stroke-opacity="0.3"/>
-      <rect x="12" y="12" width="36" height="36" rx="8" fill="#0d1b38" stroke="#247bff" stroke-width="1" stroke-opacity="0.5"/>
-      <path transform="translate(18, 18) scale(0.75)" stroke="#38bdf8" stroke-width="2" fill="none" d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
-      <text x="58" y="26" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">Cloud &amp; Scalable Backend</text>
-      <text x="58" y="44" fill="#38bdf8" class="about-mono" font-size="10.5" font-weight="600">Java • Node.js • PostgreSQL • AWS • Supabase</text>
-      <text x="58" y="60" fill="#94a3b8" class="about-font" font-size="10.5">Resilient APIs, relational modeling &amp; cloud scaling.</text>
+    <!-- Capability 3: Cloud & Backend -->
+    <g transform="translate(0, 170)">
+      <rect width="380" height="70" rx="10" fill="#0a1224" stroke="#247bff" stroke-width="1" stroke-opacity="0.25"/>
+      <rect x="12" y="14" width="34" height="34" rx="8" fill="#0d1b38" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+      <path transform="translate(17, 19) scale(0.7)" stroke="#38bdf8" stroke-width="2" fill="none" d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+      <text x="56" y="27" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">Cloud &amp; Backend</text>
+      <text x="56" y="47" fill="#94a3b8" class="about-font" font-size="11">Working with APIs, databases, cloud platforms and</text>
+      <text x="56" y="61" fill="#94a3b8" class="about-font" font-size="11">scalable backend systems.</text>
     </g>
 
-    <!-- Capability 4 -->
-    <g transform="translate(0, 262)">
-      <rect width="380" height="74" rx="12" fill="#0a1224" stroke="#ffffff" stroke-width="1" stroke-opacity="0.12"/>
-      <rect x="12" y="12" width="36" height="36" rx="8" fill="#131b2e" stroke="#ffffff" stroke-width="1" stroke-opacity="0.2"/>
-      <path transform="translate(18, 18) scale(0.75)" stroke="#94a3b8" stroke-width="2" fill="none" d="M4 17l6-6-6-6M12 19h8"/>
-      <text x="58" y="26" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">DevOps &amp; Infrastructure</text>
-      <text x="58" y="44" fill="#cbd5e1" class="about-mono" font-size="10.5" font-weight="600">Linux • Git &amp; GitHub • CI/CD • REST APIs</text>
-      <text x="58" y="60" fill="#94a3b8" class="about-font" font-size="10.5">Automated release pipelines and resilient deploy ops.</text>
+    <!-- Capability 4: DevOps & Infrastructure -->
+    <g transform="translate(0, 248)">
+      <rect width="380" height="70" rx="10" fill="#0a1224" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+      <rect x="12" y="14" width="34" height="34" rx="8" fill="#131b2e" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      <path transform="translate(17, 19) scale(0.7)" stroke="#cbd5e1" stroke-width="2" fill="none" d="M4 17l6-6-6-6M12 19h8"/>
+      <text x="56" y="27" fill="#f8fafc" class="about-font" font-size="13" font-weight="700">DevOps &amp; Infrastructure</text>
+      <text x="56" y="47" fill="#94a3b8" class="about-font" font-size="11">Learning and applying Linux, Git, CI/CD and cloud</text>
+      <text x="56" y="61" fill="#94a3b8" class="about-font" font-size="11">deployment practices.</text>
     </g>
   </g>
 
-  <!-- Right Column: Interests Carousel -->
-  <g transform="translate(460, 96)">
-    <rect width="395" height="340" rx="16" fill="#091022" stroke="url(#about-border-grad)" stroke-width="1.2"/>
-    <rect x="6" y="6" width="383" height="328" rx="12" fill="#060c18" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <!-- ================= RIGHT COLUMN: BEYOND CODE ================= -->
+  <g transform="translate(458, 92)">
+    <text x="0" y="0" fill="#ff354f" class="about-mono" font-size="11" font-weight="700" letter-spacing="0.8">BEYOND CODE</text>
 
-    <g transform="translate(20, 22)">
-      <text x="0" y="0" fill="#94a3b8" class="about-mono" font-size="10.5" font-weight="700" letter-spacing="1">INTERESTS &amp; PURSUITS // 4S CYCLE</text>
-      
-      <g transform="translate(0, 14)">
+    <!-- Carousel Container Card -->
+    <g transform="translate(0, 14)">
+      <rect width="394" height="304" rx="14" fill="#091022" stroke="url(#about-border-grad)" stroke-width="1.2"/>
+      <rect x="5" y="5" width="384" height="294" rx="10" fill="#060c18" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+      <!-- Progress Indicators Header -->
+      <g transform="translate(18, 18)">
         <g transform="translate(0, 0)">
           <rect width="112" height="4" rx="2" fill="#1e293b"/>
           <rect width="0" height="4" rx="2" fill="url(#about-prog-fill)" class="about-bar-1"/>
-          <text x="0" y="18" fill="#38bdf8" class="about-mono" font-size="9" font-weight="700">01 PROJECTS</text>
+          <text x="0" y="16" fill="#38bdf8" class="about-mono" font-size="9" font-weight="700">01 PROJECTS</text>
         </g>
 
         <g transform="translate(122, 0)">
           <rect width="112" height="4" rx="2" fill="#1e293b"/>
           <rect width="0" height="4" rx="2" fill="url(#about-prog-fill)" class="about-bar-2"/>
-          <text x="0" y="18" fill="#38bdf8" class="about-mono" font-size="9" font-weight="700">02 AI &amp; AUTO</text>
+          <text x="0" y="16" fill="#38bdf8" class="about-mono" font-size="9" font-weight="700">02 AI &amp; AUTO</text>
         </g>
 
         <g transform="translate(244, 0)">
           <rect width="112" height="4" rx="2" fill="#1e293b"/>
           <rect width="0" height="4" rx="2" fill="url(#about-prog-fill)" class="about-bar-3"/>
-          <text x="0" y="18" fill="#38bdf8" class="about-mono" font-size="9" font-weight="700">03 HACKATHONS</text>
+          <text x="0" y="16" fill="#38bdf8" class="about-mono" font-size="9" font-weight="700">03 HACKATHONS</text>
         </g>
       </g>
-    </g>
 
-    <!-- Slide 1: Building side projects -->
-    <g transform="translate(20, 80)" class="about-slide-1">
-      <rect width="355" height="235" rx="12" fill="#0a1428" stroke="#247bff" stroke-width="1" stroke-opacity="0.3"/>
-      
-      <rect x="16" y="16" width="165" height="24" rx="6" fill="#0f224a" stroke="#247bff" stroke-width="1" stroke-opacity="0.5"/>
-      <text x="26" y="32" fill="#38bdf8" class="about-mono" font-size="10" font-weight="700">★ 01 / CRAFT &amp; SHIP</text>
-      
-      <text x="16" y="68" fill="#ffffff" class="about-font" font-size="18" font-weight="800">Building Side Projects</text>
-      <text x="16" y="88" fill="#93c5fd" class="about-mono" font-size="11" font-weight="600">Zero-to-One Architectural Execution</text>
-      
-      <text x="16" y="114" fill="#cbd5e1" class="about-font" font-size="12" font-weight="400">
-        <tspan x="16" dy="0">Obsessed with turning bold ideas into production-ready software.</tspan>
-        <tspan x="16" dy="18">Architected vehicle telematics in Fleetly, digital systems in</tspan>
-        <tspan x="16" dy="18">Syncro Scale, and 3D WebGL configurators in KAAYA VERSE.</tspan>
-      </text>
+      <!-- Slide 1: Building Side Projects -->
+      <g transform="translate(18, 56)" class="about-slide-1">
+        <rect width="358" height="228" rx="10" fill="#0a1428" stroke="#247bff" stroke-width="1" stroke-opacity="0.3"/>
+        
+        <rect x="16" y="14" width="130" height="22" rx="6" fill="#0f224a" stroke="#247bff" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="24" y="29" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="700">01 / SIDE PROJECTS</text>
+        
+        <text x="16" y="60" fill="#ffffff" class="about-font" font-size="17" font-weight="800">Building Side Projects</text>
+        <text x="16" y="78" fill="#93c5fd" class="about-mono" font-size="11" font-weight="600">From Concept to Deployment</text>
+        
+        <text x="16" y="104" fill="#cbd5e1" class="about-font" font-size="12" font-weight="400">
+          <tspan x="16" dy="0">Developing full-stack applications from idea to execution.</tspan>
+          <tspan x="16" dy="18">Currently building Fleetly (vehicle rental &amp; tracking app),</tspan>
+          <tspan x="16" dy="18">Syncro Scale, and KAAYA VERSE (3D e-commerce).</tspan>
+        </text>
 
-      <g transform="translate(16, 185)">
-        <rect width="80" height="24" rx="6" fill="#070c18" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="14" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Fleetly</text>
+        <g transform="translate(16, 175)">
+          <rect width="80" height="24" rx="6" fill="#070c18" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="16" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Fleetly</text>
 
-        <rect x="88" width="110" height="24" rx="6" fill="#070c18" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="100" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Syncro Scale</text>
+          <rect x="88" width="105" height="24" rx="6" fill="#070c18" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="98" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Syncro Scale</text>
 
-        <rect x="206" width="115" height="24" rx="6" fill="#070c18" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="216" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">KAAYA VERSE</text>
+          <rect x="201" width="115" height="24" rx="6" fill="#070c18" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="211" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">KAAYA VERSE</text>
+        </g>
       </g>
-    </g>
 
-    <!-- Slide 2: AI & Automation -->
-    <g transform="translate(20, 80)" class="about-slide-2">
-      <rect width="355" height="235" rx="12" fill="#0a1428" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3"/>
-      
-      <rect x="16" y="16" width="175" height="24" rx="6" fill="#08283d" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
-      <text x="26" y="32" fill="#38bdf8" class="about-mono" font-size="10" font-weight="700">⚡ 02 / ACCELERATION</text>
-      
-      <text x="16" y="68" fill="#ffffff" class="about-font" font-size="18" font-weight="800">AI &amp; Automation</text>
-      <text x="16" y="88" fill="#38bdf8" class="about-mono" font-size="11" font-weight="600">Multiplier of Human Engineering Velocity</text>
-      
-      <text x="16" y="114" fill="#cbd5e1" class="about-font" font-size="12" font-weight="400">
-        <tspan x="16" dy="0">Engineering intelligent agents, LLM pipelines, and automated</tspan>
-        <tspan x="16" dy="18">workflows. Eliminating mechanical friction to let software</tspan>
-        <tspan x="16" dy="18">engineers focus strictly on core problem-solving.</tspan>
-      </text>
+      <!-- Slide 2: Exploring AI & Automation -->
+      <g transform="translate(18, 56)" class="about-slide-2">
+        <rect width="358" height="228" rx="10" fill="#0a1428" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3"/>
+        
+        <rect x="16" y="14" width="145" height="22" rx="6" fill="#08283d" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="24" y="29" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="700">02 / AI &amp; AUTOMATION</text>
+        
+        <text x="16" y="60" fill="#ffffff" class="about-font" font-size="17" font-weight="800">Exploring AI &amp; Automation</text>
+        <text x="16" y="78" fill="#38bdf8" class="about-mono" font-size="11" font-weight="600">Intelligent Tools &amp; Workflows</text>
+        
+        <text x="16" y="104" fill="#cbd5e1" class="about-font" font-size="12" font-weight="400">
+          <tspan x="16" dy="0">Experimenting with AI-driven applications, task automation</tspan>
+          <tspan x="16" dy="18">and intelligent workflows that eliminate friction and boost</tspan>
+          <tspan x="16" dy="18">overall software development speed.</tspan>
+        </text>
 
-      <g transform="translate(16, 185)">
-        <rect width="105" height="24" rx="6" fill="#070c18" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="10" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Agentic Workflows</text>
+        <g transform="translate(16, 175)">
+          <rect width="105" height="24" rx="6" fill="#070c18" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="10" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Smart Tools</text>
 
-        <rect x="113" width="115" height="24" rx="6" fill="#070c18" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="123" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">LLM Integrations</text>
+          <rect x="113" width="110" height="24" rx="6" fill="#070c18" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="123" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Automation</text>
 
-        <rect x="236" width="85" height="24" rx="6" fill="#070c18" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="246" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Pipelines</text>
+          <rect x="231" width="95" height="24" rx="6" fill="#070c18" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="241" y="16" fill="#38bdf8" class="about-mono" font-size="9.5" font-weight="600">Workflows</text>
+        </g>
       </g>
-    </g>
 
-    <!-- Slide 3: Hackathons -->
-    <g transform="translate(20, 80)" class="about-slide-3">
-      <rect width="355" height="235" rx="12" fill="#0a1428" stroke="#ff354f" stroke-width="1" stroke-opacity="0.3"/>
-      
-      <rect x="16" y="16" width="165" height="24" rx="6" fill="#2b0d16" stroke="#ff354f" stroke-width="1" stroke-opacity="0.5"/>
-      <text x="26" y="32" fill="#ff354f" class="about-mono" font-size="10" font-weight="700">🔥 03 / HIGH-PRESSURE</text>
-      
-      <text x="16" y="68" fill="#ffffff" class="about-font" font-size="18" font-weight="800">Hackathons &amp; Sprints</text>
-      <text x="16" y="88" fill="#ff354f" class="about-mono" font-size="11" font-weight="600">Rapid Delivery Under Time Gates</text>
-      
-      <text x="16" y="114" fill="#cbd5e1" class="about-font" font-size="12" font-weight="400">
-        <tspan x="16" dy="0">Thriving in 24–48 hour rapid engineering sprints. Uniting with</tspan>
-        <tspan x="16" dy="18">cross-functional teammates to design, build, and deploy</tspan>
-        <tspan x="16" dy="18">resilient software architectures under intense competitive focus.</tspan>
-      </text>
+      <!-- Slide 3: Hackathons & Challenges -->
+      <g transform="translate(18, 56)" class="about-slide-3">
+        <rect width="358" height="228" rx="10" fill="#0a1428" stroke="#ff354f" stroke-width="1" stroke-opacity="0.3"/>
+        
+        <rect x="16" y="14" width="135" height="22" rx="6" fill="#2b0d16" stroke="#ff354f" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="24" y="29" fill="#ff354f" class="about-mono" font-size="9.5" font-weight="700">03 / HACKATHONS</text>
+        
+        <text x="16" y="60" fill="#ffffff" class="about-font" font-size="17" font-weight="800">Hackathons &amp; Challenges</text>
+        <text x="16" y="78" fill="#ff354f" class="about-mono" font-size="11" font-weight="600">Fast-Paced Team Engineering</text>
+        
+        <text x="16" y="104" fill="#cbd5e1" class="about-font" font-size="12" font-weight="400">
+          <tspan x="16" dy="0">Collaborating in fast-paced developer hackathons</tspan>
+          <tspan x="16" dy="18">to build practical software prototypes and solve</tspan>
+          <tspan x="16" dy="18">challenging problems with teammates.</tspan>
+        </text>
 
-      <g transform="translate(16, 185)">
-        <rect width="90" height="24" rx="6" fill="#070c18" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="12" y="16" fill="#ff354f" class="about-mono" font-size="9.5" font-weight="600">24h-48h Sprints</text>
+        <g transform="translate(16, 175)">
+          <rect width="90" height="24" rx="6" fill="#070c18" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="14" y="16" fill="#ff354f" class="about-mono" font-size="9.5" font-weight="600">Rapid Sprints</text>
 
-        <rect x="98" width="105" height="24" rx="6" fill="#070c18" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="108" y="16" fill="#ff354f" class="about-mono" font-size="9.5" font-weight="600">Team Synergy</text>
+          <rect x="98" width="105" height="24" rx="6" fill="#070c18" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="108" y="16" fill="#ff354f" class="about-mono" font-size="9.5" font-weight="600">Team Collab</text>
 
-        <rect x="211" width="110" height="24" rx="6" fill="#070c18" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
-        <text x="221" y="16" fill="#ff354f" class="about-mono" font-size="9.5" font-weight="600">MVP Delivery</text>
+          <rect x="211" width="110" height="24" rx="6" fill="#070c18" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
+          <text x="221" y="16" fill="#ff354f" class="about-mono" font-size="9.5" font-weight="600">Prototyping</text>
+        </g>
       </g>
-    </g>
 
+    </g>
   </g>
 
 </svg>
