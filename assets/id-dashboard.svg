@@ -132,11 +132,11 @@
         <text x="0" y="42" fill="#64748b" class="id-mono" font-size="9" font-weight="600">DISCIPLINE</text>
         <text x="0" y="58" fill="#93c5fd" class="id-font" font-size="12" font-weight="600">Computer Engineering</text>
 
-        <text x="0" y="84" fill="#64748b" class="id-mono" font-size="9" font-weight="600">CURRENT POSITION</text>
-        <text x="0" y="100" fill="#f8fafc" class="id-font" font-size="12" font-weight="700">Software Dev Intern</text>
+        <text x="0" y="84" fill="#64748b" class="id-mono" font-size="9" font-weight="600">ROLE</text>
+        <text x="0" y="100" fill="#f8fafc" class="id-font" font-size="12" font-weight="700">Full-Stack Developer</text>
 
-        <text x="0" y="126" fill="#64748b" class="id-mono" font-size="9" font-weight="600">ORGANIZATION</text>
-        <text x="0" y="142" fill="#38bdf8" class="id-font" font-size="12" font-weight="700">Valueye Technologies</text>
+        <text x="0" y="126" fill="#64748b" class="id-mono" font-size="9" font-weight="600">STATUS</text>
+        <text x="0" y="142" fill="#38bdf8" class="id-font" font-size="12" font-weight="700">Open to Opportunities</text>
 
         <text x="0" y="168" fill="#64748b" class="id-mono" font-size="9" font-weight="600">LOCATION</text>
         <text x="0" y="184" fill="#f8fafc" class="id-font" font-size="12" font-weight="700">Mumbai, India</text>
@@ -197,7 +197,7 @@
     <!-- Top Lanyard Ribbon -->
     <g transform="translate(436, 0)">
       <rect width="28" height="75" fill="url(#id-lanyard-strap)"/>
-      <text transform="translate(18, 55) rotate(-90)" fill="#38bdf8" class="id-mono" font-size="7" font-weight="800" letter-spacing="1">VALUEYE TECHNOLOGIES</text>
+      <text transform="translate(18, 55) rotate(-90)" fill="#38bdf8" class="id-mono" font-size="7" font-weight="800" letter-spacing="1">FULL-STACK DEVELOPER</text>
       <line x1="2" y1="0" x2="2" y2="75" stroke="#247bff" stroke-width="1" stroke-opacity="0.8"/>
       <line x1="26" y1="0" x2="26" y2="75" stroke="#247bff" stroke-width="1" stroke-opacity="0.8"/>
     </g>
@@ -219,9 +219,9 @@
 
       <!-- Card Top Brand Header -->
       <g transform="translate(305, 134)">
-        <text x="0" y="0" fill="#93c5fd" class="id-mono" font-size="10.5" font-weight="800" letter-spacing="1.5">VALUEYE TECHNOLOGIES</text>
+        <text x="0" y="0" fill="#93c5fd" class="id-mono" font-size="10.5" font-weight="800" letter-spacing="1.5">FULL-STACK DEVELOPER</text>
         <rect x="195" y="-10" width="95" height="18" rx="4" fill="#0f244a" stroke="#247bff" stroke-width="1"/>
-        <text x="202" y="3" fill="#38bdf8" class="id-mono" font-size="8.5" font-weight="700">DEV INTERN</text>
+        <text x="204" y="3" fill="#38bdf8" class="id-mono" font-size="8.5" font-weight="700">OPEN TO WORK</text>
       </g>
 
       <rect x="305" y="142" width="290" height="2" fill="url(#stack-border-grad)"/>
@@ -245,10 +245,10 @@
         <text x="0" y="16" fill="#ffffff" class="id-font" font-size="14" font-weight="800">Vishnu N. Mor</text>
 
         <text x="0" y="38" fill="#64748b" class="id-mono" font-size="8.5" font-weight="600">ROLE</text>
-        <text x="0" y="52" fill="#38bdf8" class="id-font" font-size="11.5" font-weight="700">Software Dev Intern</text>
+        <text x="0" y="52" fill="#38bdf8" class="id-font" font-size="11.5" font-weight="700">Full-Stack Developer</text>
 
-        <text x="0" y="74" fill="#64748b" class="id-mono" font-size="8.5" font-weight="600">COMPANY</text>
-        <text x="0" y="88" fill="#e2e8f0" class="id-font" font-size="11" font-weight="600">Valueye Technologies</text>
+        <text x="0" y="74" fill="#64748b" class="id-mono" font-size="8.5" font-weight="600">STATUS</text>
+        <text x="0" y="88" fill="#e2e8f0" class="id-font" font-size="11" font-weight="600">Open to Opportunities</text>
 
         <text x="0" y="110" fill="#64748b" class="id-mono" font-size="8.5" font-weight="600">LOCATION</text>
         <text x="0" y="124" fill="#94a3b8" class="id-font" font-size="11" font-weight="600">Mumbai, India</text>
@@ -322,13 +322,13 @@
         </g>
 
         <!-- Clean Factual Serial Below Barcode -->
-        <text x="145" y="42" text-anchor="middle" fill="#070b16" class="id-mono" font-size="9" font-weight="700" letter-spacing="2">* VNM - VALUEYE - 369 *</text>
+        <text x="145" y="42" text-anchor="middle" fill="#070b16" class="id-mono" font-size="9" font-weight="700" letter-spacing="2">* VNM - FULLSTACK - 369 *</text>
       </g>
 
       <!-- Bottom Card Status Footer -->
       <g transform="translate(305, 375)">
         <circle cx="12" cy="10" r="4" fill="#38bdf8"/>
-        <text x="24" y="14" fill="#f8fafc" class="id-mono" font-size="10" font-weight="700">SOFTWARE DEV INTERN</text>
+        <text x="24" y="14" fill="#f8fafc" class="id-mono" font-size="10" font-weight="700">FULL-STACK DEVELOPER</text>
         <text x="210" y="14" fill="#64748b" class="id-mono" font-size="9.5">ID: 369-VNM</text>
         <line x1="0" y1="22" x2="290" y2="22" stroke="url(#stack-border-grad)" stroke-width="1"/>
       </g>
